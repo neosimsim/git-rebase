@@ -23,4 +23,11 @@ package de.sernet.talks.git.rebase;
  *  This clas provides utility methods.
  */
 public class Util {
+    private Util() {
+
+    }
+
+    public static String toUpper(String string) {
+        return string.toUpperCase();
+    }
 }
