@@ -26,10 +26,13 @@ import java.util.Locale;
  */
 public class Util {
     private Util() {
-
     }
 
     public static String toUpper(String string) {
-        return string.toUpperCase(Locale.getDefault());
+        return string.toLowerCase(Locale.getDefault());
+    }
+
+    public static String toLower(String string) {
+        return string.toLowerCase(Locale.getDefault());
     }
 }
