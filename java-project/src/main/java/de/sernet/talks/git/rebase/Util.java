@@ -19,6 +19,8 @@
  ******************************************************************************/
 package de.sernet.talks.git.rebase;
 
+import java.util.Locale;
+
 /**
  *  This clas provides utility methods.
  */
@@ -28,6 +30,6 @@ public class Util {
     }
 
     public static String toUpper(String string) {
-        return string.toUpperCase();
+        return string.toUpperCase(Locale.getDefault());
     }
 }
