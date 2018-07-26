@@ -33,6 +33,7 @@ public class Util {
     }
 
     public static String toLower(String string) {
-        return string.toLowerCase(Locale.getDefault());
+        return string.toLowerCase
+                (Locale.getDefault());
     }
 }
